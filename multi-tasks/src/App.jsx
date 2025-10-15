@@ -1,8 +1,7 @@
-// src/App.jsx
-import Task1 from "./task1/Task1";
+import IndexPage from "./indexpage/IndexPage";
 
 function App() {
-  return <Task1 />;
+  return <IndexPage />;
 }
 
 export default App;
