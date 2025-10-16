@@ -1,17 +1,24 @@
+import { Link } from "react-router-dom";
 
 export default function IndexPage() {
   return (
-    <div style={{
-      fontFamily: "Arial, sans-serif",
-      textAlign: "center",
-      marginTop: "50px"
-    }}>
+    <div
+      style={{
+        fontFamily: "Arial, sans-serif",
+        textAlign: "center",
+        marginTop: "50px",
+      }}
+    >
       <h1>React Multitasks</h1>
       <p>Select a task to view:</p>
       <ul style={{ listStyle: "none", padding: 0 }}>
-        <li><a href="https://sriram507.github.io/ReactMultitasks/task1">Task 1</a></li>
-        {/* <li><a href="https://sriram507.github.io/ReactMultitasks/task2">Task 2</a></li>
-        <li><a href="https://sriram507.github.io/ReactMultitasks/task3">Task 3</a></li> */}
+        <li>
+          <Link to="/task1">Task 1</Link>
+        </li>
+        {/* Example for more tasks:
+        <li><Link to="/task2">Task 2</Link></li>
+        <li><Link to="/task3">Task 3</Link></li>
+        */}
       </ul>
     </div>
   );
