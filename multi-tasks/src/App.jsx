@@ -3,6 +3,7 @@ import IndexPage from "./indexpage/IndexPage";
 import Task1 from "./task1/Task1";
 
 function App() {
+  // ✅ Automatically use correct base for local vs. GitHub Pages
   const basename =
     process.env.NODE_ENV === "production" ? "/ReactMultitasks" : "/";
 
