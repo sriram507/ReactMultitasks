@@ -5,7 +5,7 @@ import Task2 from "./task2/Task2";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<IndexPage />} />
         <Route path="/task1" element={<Task1 />} />
