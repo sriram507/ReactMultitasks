@@ -38,6 +38,15 @@ export default function IndexPage() {
           >
             ⚙️ Task 3 — Notifications & Settings
           </Link>
+          <div className="w-3/4 h-[2px] bg-purple-200 rounded-full"></div>
+
+          {/* Task 4 Link */}
+          <Link
+            to="/task4"
+            className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
+          >
+            ✅ Task 4 — Todo Manager
+          </Link>
         </div>
 
         {/* Footer */}
