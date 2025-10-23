@@ -4,9 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React Multi Tasks</title>
+
+    <!-- ✅ Load TailwindCSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ✅ Optional: Custom Tailwind Config (e.g. fonts or colors) -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: "#2563EB",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- ✅ You can keep your favicon, meta tags, etc. here -->
   </head>
-  <body>
+
+  <body class="bg-gray-50">
     <div id="root"></div>
-    <div id="portal-root"></div> <!-- ✅ For React Portals -->
+    <div id="portal-root"></div> <!-- For React Portals -->
   </body>
 </html>
