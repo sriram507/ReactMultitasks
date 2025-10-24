@@ -11,8 +11,7 @@ export default function IndexPage() {
 
         {/* Subtitle */}
         <p className="text-gray-600 max-w-md leading-relaxed">
-          Learn and practice modern React concepts through simple hands-on
-          mini-projects.
+          Learn and practice modern React concepts through simple hands-on mini-projects.
         </p>
 
         {/* Task Links */}
@@ -41,19 +40,27 @@ export default function IndexPage() {
           </Link>
           <div className="w-3/4 h-[2px] bg-purple-200 rounded-full"></div>
 
-          {/* Task 4 Link */}
           <Link
             to="/task4"
             className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
           >
             ✅ Task 4 — Todo Manager
           </Link>
+          <div className="w-3/4 h-[2px] bg-yellow-200 rounded-full"></div>
 
           <Link
             to="/task5"
             className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
           >
             👥 Task 5 — User Directory (API Fetch)
+          </Link>
+          <div className="w-3/4 h-[2px] bg-pink-200 rounded-full"></div>
+
+          <Link
+            to="/task6"
+            className="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
+          >
+            🛒 Task 6 — Cart Manager
           </Link>
         </div>
 
