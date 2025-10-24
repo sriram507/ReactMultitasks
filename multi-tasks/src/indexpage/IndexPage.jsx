@@ -11,7 +11,8 @@ export default function IndexPage() {
 
         {/* Subtitle */}
         <p className="text-gray-600 max-w-md leading-relaxed">
-          Learn and practice modern React concepts through simple hands-on mini-projects.
+          Learn and practice modern React concepts through simple hands-on
+          mini-projects.
         </p>
 
         {/* Task Links */}
@@ -47,11 +48,20 @@ export default function IndexPage() {
           >
             ✅ Task 4 — Todo Manager
           </Link>
+
+          <Link
+            to="/task5"
+            className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
+          >
+            👥 Task 5 — User Directory (API Fetch)
+          </Link>
         </div>
 
         {/* Footer */}
         <footer className="text-sm text-gray-500">
-          Built with ❤️ using <span className="font-medium text-blue-600">React</span> & <span className="font-medium text-purple-600">Tailwind CSS</span>
+          Built with ❤️ using{" "}
+          <span className="font-medium text-blue-600">React</span> &{" "}
+          <span className="font-medium text-purple-600">Tailwind CSS</span>
         </footer>
       </div>
     </div>
