@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default function IndexPage() {
   return (
@@ -16,58 +16,38 @@ export default function IndexPage() {
 
         {/* Task Links */}
         <div className="w-full max-w-sm flex flex-col items-center space-y-6">
-          <Link
-            to="/task1"
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
-          >
-            🧩 Task 1 — User Card Display
+          <Link to="/task1" className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105">
+            Task 1 — User Card Display
           </Link>
-          <div className="w-3/4 h-[2px] bg-blue-200 rounded-full"></div>
 
-          <Link
-            to="/task2"
-            className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
-          >
-            📝 Task 2 — Registration Form
+          <Link to="/task2" className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105">
+            Task 2 — Registration Form
           </Link>
-          <div className="w-3/4 h-[2px] bg-green-200 rounded-full"></div>
 
-          <Link
-            to="/task3"
-            className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
-          >
-            ⚙️ Task 3 — Notifications & Settings
+          <Link to="/task3" className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105">
+            Task 3 — Notifications & Settings
           </Link>
-          <div className="w-3/4 h-[2px] bg-purple-200 rounded-full"></div>
 
-          <Link
-            to="/task4"
-            className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
-          >
-            ✅ Task 4 — Todo Manager
+          <Link to="/task4" className="w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105">
+            Task 4 — Todo Manager
           </Link>
-          <div className="w-3/4 h-[2px] bg-yellow-200 rounded-full"></div>
 
-          <Link
-            to="/task5"
-            className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
-          >
-            👥 Task 5 — User Directory (API Fetch)
+          <Link to="/task5" className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105">
+            Task 5 — User Directory (API Fetch)
           </Link>
-          <div className="w-3/4 h-[2px] bg-pink-200 rounded-full"></div>
 
-          <Link
-            to="/task6"
-            className="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105"
-          >
-            🛒 Task 6 — Cart Manager
+          <Link to="/task6" className="w-full bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105">
+            Task 6 — Cart Manager
+          </Link>
+
+          <Link to="/task7" className="w-full bg-red-500 hover:bg-red-600 text-white py-3 rounded-2xl font-semibold shadow-md transition-transform hover:scale-105">
+            Task 7 — E-commerce Mini App
           </Link>
         </div>
 
         {/* Footer */}
-        <footer className="text-sm text-gray-500">
-          Built with ❤️ using{" "}
-          <span className="font-medium text-blue-600">React</span> &{" "}
+        <footer className="text-sm text-gray-500 mt-10">
+          Built with <span className="font-medium text-blue-600">React</span> &{' '}
           <span className="font-medium text-purple-600">Tailwind CSS</span>
         </footer>
       </div>
